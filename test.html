@@ -1,0 +1,7 @@
+<!DOCTYPE html><head><body><script>
+    function sleep(ms) { return new Promise((resolve) => setTimeout(resolve, ms));}async function play_notes() {new Audio('/tunes/A.wav').play();
+    await sleep(1100);new Audio('/tunes/B.wav').play();
+    new Audio('/tunes/A.wav').play();
+    await sleep(1100);new Audio('/tunes/C.wav').play();
+    await sleep(1100);new Audio('/tunes/D.wav').play();
+    await sleep(1100);}play_notes();</script></body></html>

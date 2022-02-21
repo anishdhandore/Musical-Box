@@ -1,0 +1,26 @@
+3: declare variable that will begin a new html page after compiling
+5: declare a sleep function 
+6: give a settimeout when a function runs asynchronously
+9: concatenate the function to the new html_template variable
+10: concatenate the function to the new html_template variable
+12: declare an asynchronous function that reads and plays the notes 
+13: declare a variable to collect the compiled script inside the async function
+14: declare a variable that reads notes and separates them in a list
+15: declare a variable i that acts as a counter for the external while loop
+16: start a while loop that runs for every line of notes
+17: declare a variable j that acts as a counter for inner loop 
+18: start a while loop that runs until every note in each line is read and played 
+19-22: if note is A, then play A and contacenate the script to the compiled script
+23-26: if note is B, then play B and contacenate the script to the compiled script
+27-30: if note is C, then play C and contacenate the script to the compiled script
+31-34: if note is D, then play D and contacenate the script to the compiled script
+35-38: if note is E, then play E and contacenate the script to the compiled script
+39-42: if note is F, then play F and contacenate the script to the compiled script
+43-46: if note is G, then play G and contacenate the script to the compiled script
+47: increment j by 1, so we can move on to the next note on the SAME LINE now 
+49: put the script on sleep after reading EVERY LINE 
+50: contacenate the await method to the compiled script
+51: increment i to move on to the NEXT LINE 
+53-54: get documentID for the compiled code textarea and add all the compiled code (string) and the html template to it 
+57-59: declare and create a function that clears the notes
+61-63: declare and create a function that clears the compiled code
